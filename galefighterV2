@@ -8,7 +8,7 @@ Global.GelatekHubConfig = {["Permanent Death"] = true,["Torso Fling"] = false,["
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/lib/Reanimate.lua"))()
 
-wait(5)
+wait(7)
 StopScript()
 wait(2)
 
