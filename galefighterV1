@@ -1,0 +1,15 @@
+game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-r6")
+wait(2)
+
+local Global = (getgenv and getgenv()) or shared
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/packages/FunctionPack.lua"))()
+Global.GelatekHubConfig = {["Permanent Death"] = true,["Torso Fling"] = false,["Bullet Enabled"] = false,["Enable Collisions"] = true,["Keep Hats On Head"] = true,["Headless On Perma"] = false,["Anti Void"] = false,["Anti Void Offset"] = 75}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/lib/Reanimate.lua"))()
+
+wait(5)
+StopScript()
+wait(2)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/GaleFighter.lua"))()
