@@ -14,9 +14,9 @@
   ENJOY
 ]]
 
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-r6")
+print("-r6")
 wait(2)
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync([[-gh 6869866014]])
+print([[-gh 6869866014]])
 wait(2)
 
 local Global = (getgenv and getgenv()) or shared
