@@ -1,4 +1,5 @@
 game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-r6")
+wait(2)
 
 local Global = (getgenv and getgenv()) or shared
 
