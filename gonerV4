@@ -14,7 +14,7 @@
   ENJOY
 ]]
 
-game:GetService("ReplicatedStorage")["01_server"]:FireServer("cmd", "-gh "6869866014")
+game:GetService("ReplicatedStorage")["01_server"]:FireServer("cmd", "-gh 6869866014")
 wait(2)
 
 local Global = (getgenv and getgenv()) or shared
