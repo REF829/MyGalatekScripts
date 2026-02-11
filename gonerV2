@@ -14,9 +14,7 @@
   ENJOY
 ]]
 
-game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync("-r6")
-wait(2)
-print([[-gh 6869866014]])
+game:GetService("ReplicatedStorage")["01_server"]:FireServer("cmd", "-gh 5414429551")
 wait(2)
 
 local Global = (getgenv and getgenv()) or shared
