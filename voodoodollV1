@@ -14,7 +14,7 @@
   ENJOY
 ]]
 
-game:GetService("ReplicatedStorage")["01_server"]:FireServer("cmd", "-gh 6202087882")
+game:GetService("ReplicatedStorage")["01_server"]:FireServer("cmd", "-gh 7218265043,7170689370")
 wait(2)
 
 local Global = (getgenv and getgenv()) or shared
@@ -28,4 +28,4 @@ wait(6)
 StopScript()
 wait(2)
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/AttackRifle.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gelatekussy/GelatekHub/main/src/scripts/VoodooDoll.lua"))()
